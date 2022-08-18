@@ -2,14 +2,16 @@
 import sqlite3
 from binary2strings import binary2strings as b2s
 import shutil
-import argparse
+# import argparse
 
 
 # Ajout d'un argument pour le nom de la base de données
-parser = argparse.ArgumentParser()
-parser.add_argument('database', help='nom de la base de données')
-args = parser.parse_args()
-db = args.database
+# parser = argparse.ArgumentParser()
+# parser.add_argument('database', help='nom de la base de données')
+# args = parser.parse_args()
+# db = args.database
+print("Indiquez le nom du fichier de base de données ou son chemin absolu s'il n'est pas dans le même dossier que le script :")
+db = input("Nom de la base de données : ")
 
 # copie de la base de données
 src = db
