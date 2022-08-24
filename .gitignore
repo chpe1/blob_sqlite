@@ -7,3 +7,6 @@ dist/
 build/
 *.exe
 *.spec
+essai.py
+gui.py
+blob_to_text_in_sqlite.py

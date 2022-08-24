@@ -24,5 +24,5 @@ Warning, this script uses the binary2strings library. It is recommended to insta
 $ git clone https://github.com/chpe1/blob_sqlite.git  
 $ cd ../path/to/the/file  
 $ pip install --upgrade -r requirements.txt  
-$ python main.py mybase.db
+$ python main.py
 ```
