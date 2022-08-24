@@ -1,4 +1,4 @@
-# BLOB SQLITE
+# BLOB TO TEXT IN SQLITE
 
 ## Table of Contents
 1. [General Info](#general-info)
